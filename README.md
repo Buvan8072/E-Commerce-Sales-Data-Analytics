@@ -1,67 +1,77 @@
 🛒 E-Commerce Sales Data Analytics
 
-An end-to-end data analytics project using **Python, SQL, and Power BI** to analyze e-commerce sales, profitability, customers, products, regions, and time-based performance.
+An end-to-end data analytics project using **Python, SQL Server, and Power BI** to analyze e-commerce sales, profitability, customers, products, regions, and time-based performance.
 
 📌 Project Overview
 
-This project analyzes an e-commerce sales dataset to identify important business trends and performance patterns.
+This project analyzes an e-commerce sales dataset to identify important business trends, sales patterns, customer behavior, product performance, regional performance, and profitability.
 
 The project follows a complete analytics workflow:
 
-**Data → Cleaning → SQL Analysis → Python Analysis → Power BI Dashboard → Business Insights**
+**Data → Cleaning → Python Analysis → SQL Server Analysis → Power BI Dashboard → Business Insights**
 
 🎯 Objectives
 
-* Analyze overall sales and profit performance
-* Identify top-performing products and customers
-* Compare sales and profit across categories and regions
-* Analyze customer segments and shipping modes
-* Understand monthly, quarterly, and yearly sales trends
-* Build an interactive Power BI dashboard for business reporting
+- Analyze overall sales and profit performance
+- Clean and preprocess the e-commerce dataset
+- Perform exploratory data analysis using Python
+- Store and analyze the cleaned data using SQL Server
+- Identify top-performing products and customers
+- Compare sales and profit across categories and regions
+- Analyze customer segments and geographical performance
+- Understand monthly, quarterly, and yearly sales trends
+- Build an interactive 5-page Power BI dashboard
+- Translate data into meaningful business insights
 
 🛠️ Tools & Technologies
 
-| Tool           | Purpose                                 |
-| -------------- | --------------------------------------- |
-| 🐍 Python      | Data cleaning, EDA and analysis         |
-| 🗄️ SQL Server | Data storage and SQL analysis           |
-| 📊 Power BI    | Interactive dashboard and visualization |
-| 📁 Excel/CSV   | Dataset preparation                     |
-| 💻 VS Code     | Python development                      |
+| Tool | Purpose |
+|------|---------|
+| 🐍 Python | Data cleaning, EDA and analysis |
+| 🐼 Pandas | Data manipulation and preprocessing |
+| 📊 Matplotlib | Data visualization |
+| 🗄️ SQL Server | Data storage and SQL analysis |
+| ⚡ SQL | Business analysis and data querying |
+| 📊 Power BI | Interactive dashboard and visualization |
+| 📐 DAX | Measures and business calculations |
+| 📁 Excel/CSV | Dataset preparation |
+| 💻 VS Code | Python development |
+| 🌐 GitHub | Project documentation and version control |
 
 📂 Project Structure
 
 ```text
-E-Commerce Sales Data Analytics/
+E-Commerce-Sales-Data-Analytics/
+│
+├── Dashboard/
+│   └── Dashboard.pbix
 │
 ├── data/
-│   └── superstore.csv
+│   ├── superstore.csv
+│   ├── superstore_clean.csv
+│   └── cleaned project data
 │
-├── python/
-│   ├── data_cleaning
-│   ├── sales_analysis
-│   ├── monthly_sales
-│   ├── customer_analysis
-│   └── correlation_analysis
+├── Images/
+│   ├── Executive Dashboard.png
+│   ├── Product Analysis.png
+│   ├── Customer Analysis Dashboard.png
+│   ├── Regional Analysis Dashboard.png
+│   └── Time Analysis Dashboard.png
 │
-├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_create_table.sql
-│   ├── 03_basic_sql.sql
-│   ├── 04_aggregate_functions.sql
-│   ├── 05_group_by.sql
-│   ├── 06_having.sql
-│   ├── 07_business_queries.sql
-│   ├── 08_window_functions.sql
-│   └── 09_cte.sql
+├── Notebooks/
+│   ├── 02_data_cleaning.py
+│   ├── 05_sales_chart.py
+│   ├── 08_monthly_sales.py
+│   ├── 10_top_customers.py
+│   └── 13_correlation_analysis.py
 │
-├── powerbi/
-│   └── ECommerceSalesDashboard.pbix
+├── SQL/
+│   └── SQL analysis scripts
 │
-├── screenshots/
+├── Reports/
+│   └── Project documentation
 │
 └── README.md
-```
 
 🐍 Python Analysis
 
