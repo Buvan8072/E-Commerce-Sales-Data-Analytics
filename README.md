@@ -79,15 +79,15 @@ Python was used for data cleaning and exploratory analysis.
 
 Analysis performed
 
-* Dataset loading and validation
-* Data cleaning
-* Sales analysis
-* Profit analysis
-* Category analysis
-* Monthly sales analysis
-* Customer analysis
-* Correlation analysis
-* Data visualization using Python
+ * Dataset loading and validation
+ * Data cleaning
+ * Sales analysis
+ * Profit analysis
+ * Category analysis
+ * Monthly sales analysis
+ * Customer analysis
+ * Correlation analysis
+ * Data visualization using Python
 
 Key Metrics
 
@@ -105,40 +105,40 @@ SQL Server was used to store and analyze the Superstore dataset.
 
  SQL concepts implemented
 
-* `SELECT`
-* `WHERE`
-* `ORDER BY`
-* `DISTINCT`
-* `TOP`
-* `COUNT()`
-* `SUM()`
-* `AVG()`
-* `MIN()`
-* `MAX()`
-* `GROUP BY`
-* `HAVING`
-* Window Functions
-* `ROW_NUMBER()`
-* `RANK()`
-* `DENSE_RANK()`
-* Common Table Expressions (CTEs)
+ * `SELECT`
+ * `WHERE`
+ * `ORDER BY`
+ * `DISTINCT`
+ * `TOP`
+ * `COUNT()`
+ * `SUM()`
+ * `AVG()`
+ * `MIN()`
+ * `MAX()`
+ * `GROUP BY`
+ * `HAVING`
+ * Window Functions
+ * `ROW_NUMBER()`
+ * `RANK()`
+ * `DENSE_RANK()`
+ * Common Table Expressions (CTEs)
 
 Business Analysis
 
 SQL was used to analyze:
 
-* Sales by category
-* Profit by category
-* Sales by region
-* Profit by region
-* Sales by customer segment
-* Sales by shipping mode
-* Top customers
-* Top products
-* Top states
-* Top cities
-* Monthly sales
-* Product rankings
+ * Sales by category
+ * Profit by category
+ * Sales by region
+ * Profit by region
+ * Sales by customer segment
+ * Sales by shipping mode
+ * Top customers
+ * Top products
+ * Top states
+ * Top cities
+ * Monthly sales
+ * Product rankings
 
 📊 Power BI Dashboard
 
@@ -148,76 +148,76 @@ Page 1 — 📊 Executive Dashboard
 
 Provides an overall view of business performance.
 
-* 💰 Sales
-* 📈 Profit
-* 📦 Orders
-* 🛒 Quantity
-* Sales by Region
-* Sales by Category
-* Sales by Segment
-* Monthly Sales Trend
+  * 💰 Sales
+  * 📈 Profit
+  * 📦 Orders
+  * 🛒 Quantity
+  * Sales by Region
+  * Sales by Category
+  * Sales by Segment
+  * Monthly Sales Trend
 
 Page 2 — 📦 Product Analysis
 
 Analyzes product and category performance.
 
-* Top 10 Products
-* Sales by Sub-Category
-* Profit by Sub-Category
-* Quantity by Category
+ * Top 10 Products
+ * Sales by Sub-Category
+ * Profit by Sub-Category
+ * Quantity by Category
 
 Page 3 — 👥 Customer Analysis
 
 Analyzes customer and segment performance.
 
-* Top Customers
-* Sales by Segment
-* Sales by State
-* Sales by City
+ * Top Customers
+ * Sales by Segment
+ * Sales by State
+ * Sales by City
 
 Page 4 — 🌍 Regional Analysis
 
 Analyzes geographical performance.
 
-* Sales by Region
-* Profit by Region
-* Top States by Sales
-* Sales by City
+ * Sales by Region
+ * Profit by Region
+ * Top States by Sales
+ * Sales by City
 
 Page 5 — 📅 Time Analysis
 
 Analyzes performance over time.
 
-* Monthly Sales Trend
-* Monthly Profit Trend
-* Quarterly Sales
-* Yearly Sales
+ * Monthly Sales Trend
+ * Monthly Profit Trend
+ * Quarterly Sales
+ * Yearly Sales
 
 🔢 DAX Measures
 
 The Power BI report uses measures for key business metrics, including:
 
-* Total Sales
-* Total Profit
-* Total Quantity
-* Total Orders
-* Average Order Value
-* Profit Margin %
-* Average Profit per Order
-* Average Quantity per Order
-* Total Discount
-* Average Discount
-* Sales per Customer
+ * Total Sales
+ * Total Profit
+ * Total Quantity
+ * Total Orders
+ * Average Order Value
+ * Profit Margin %
+ * Average Profit per Order
+ * Average Quantity per Order
+ * Total Discount
+ * Average Discount
+ * Sales per Customer
 
 🎨 Dashboard Features
 
-* Interactive slicers
-* KPI cards
-* Multiple analytical visuals
-* Consistent dashboard theme
-* Page navigation buttons
-* Product, customer, regional and time analysis
-* Multi-page interactive reporting
+ * Interactive slicers
+ * KPI cards
+ * Multiple analytical visuals
+ * Consistent dashboard theme
+ * Page navigation buttons
+ * Product, customer, regional and time analysis
+ * Multi-page interactive reporting
 
 📈 Key Business Questions Answered
 
